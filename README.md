@@ -53,7 +53,7 @@ Contributions to the Android Calculator App are welcome. If you have any suggest
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt).
 
 ## Acknowledgements
 
