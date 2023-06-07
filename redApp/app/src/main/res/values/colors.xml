@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_color">#222525</color>
+    <color name="defual_btn_color">#68CFBDBD</color>
+    <color name="equal_btn_color">#0f0</color>
+    <color name="clear_btn_color">#f00</color>
+</resources>
