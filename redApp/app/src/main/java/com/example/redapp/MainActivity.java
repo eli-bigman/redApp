@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,8 +34,31 @@ public class MainActivity extends AppCompatActivity {
     private Button sub_btn;
     private Button equal_btn;
     private Button period_btn;
-    private Button ;
+    private TextView currentOperand ;
+    private TextView previousOperand;
 
+    private void getUIViews() {
+        one = (Button) findViewById(R.id.btnNumber0);
+        two = (Button) findViewById(R.id.btnNumber2);
+        three = (Button) findViewById(R.id.btnNumber3);
+        four = (Button) findViewById(R.id.btnNumber4);
+        five = (Button) findViewById(R.id.btnNumber5);
+        six = (Button) findViewById(R.id.btnNumber5);
+        seven = (Button) findViewById(R.id.btnNumber6);
+        eight = (Button) findViewById(R.id.btnNumber8);
+        nine = (Button) findViewById(R.id.btnNumber9);
+        zero = (Button) findViewById(R.id.btnNumber0);
+        AC = (Button) findViewById(R.id.AC_btn);
+        Del = (Button) findViewById(R.id.DEL_btn);
+        div_btn = (Button) findViewById(R.id.div_btn);
+        add_btn = (Button) findViewById(R.id.add_btn);
+        sub_btn = (Button) findViewById(R.id.sub_btn);
+        percentage_btn = (Button) findViewById(R.id.percentage_btn);
+        period_btn = (Button) findViewById(R.id.period_btn);
+        currentOperand = (TextView) findViewById(R.id.current_TV);
+        previousOperand = (TextView) findViewById(R.id.previous_TV);
+
+    }
 
 
 }

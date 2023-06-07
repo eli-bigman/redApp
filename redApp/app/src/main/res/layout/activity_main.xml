@@ -10,7 +10,7 @@
 
 
     <Button
-        android:id="@+id/memory_btn"
+        android:id="@+id/M_max"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -30,17 +30,18 @@
     <TextView
         android:id="@+id/current_TV"
         android:layout_width="wrap_content"
-        android:layout_height="88dp"
+        android:layout_height="91dp"
         android:layout_below="@+id/previous_TV"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="11dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="10dp"
+        android:background="@drawable/textview_background"
         android:text="50.02"
+        android:textAlignment="textEnd"
         android:textColor="#F4F0F0"
-        android:textSize="60sp"
-        android:textAlignment="textEnd" />
+        android:textSize="60sp" />
 
     <Button
         android:id="@+id/AC_btn"
@@ -80,7 +81,7 @@
         android:textAlignment="center" />
 
     <Button
-        android:id="@+id/DEL_btn2"
+        android:id="@+id/M_min"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -92,7 +93,7 @@
         android:background="@drawable/gradient_background"
         android:gravity="center"
         android:padding="10dp"
-        android:text="DEL"
+        android:text="M-"
         android:textColor="#FCB5E182"
         android:textSize="16sp"
         android:textAlignment="center" />
@@ -116,7 +117,7 @@
         android:textAlignment="center" />
 
     <Button
-        android:id="@+id/percentage_btn2"
+        android:id="@+id/MR_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -128,13 +129,13 @@
         android:background="@drawable/gradient_background"
         android:gravity="center"
         android:padding="10dp"
-        android:text="%"
+        android:text="MR"
         android:textColor="#FCB5E182"
         android:textSize="16sp"
         android:textAlignment="center" />
 
     <Button
-        android:id="@+id/sub_btn"
+        android:id="@+id/MC_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -145,7 +146,7 @@
         android:background="@drawable/gradient_background"
         android:gravity="center"
         android:padding="10dp"
-        android:text="-"
+        android:text="MC"
         android:textColor="#FCB5E182"
         android:textSize="16sp"
         android:layout_marginEnd="10dp"
@@ -446,8 +447,8 @@
 
     <TextView
         android:id="@+id/previous_TV"
-        android:layout_width="373dp"
-        android:layout_height="58dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
@@ -455,8 +456,8 @@
         android:layout_marginTop="9dp"
         android:layout_marginEnd="14dp"
         android:text="20.8"
+        android:textAlignment="textEnd"
         android:textColor="#FACCCACA"
-        android:textSize="34sp"
-        android:textAlignment="textEnd" />
+        android:textSize="34sp" />
 
 </RelativeLayout>
